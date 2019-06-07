@@ -1,0 +1,191 @@
+body {
+	font-family: "Varela Round", Helvetica, Arial, san-serif;
+	font-size: 9pt;
+	background-color: #1786B4;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px 0px 0px 0px;
+	padding-left: 50px;
+	overflow: hidden;
+	background-color: #ffffff;
+	height: 50px;
+}
+
+ul li {
+	float: left;
+	padding: 20px;
+}
+
+ul li a {
+	display: block;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+.logoImg {
+	position: absolute;
+	left: 8px;
+}
+
+.container {
+	width: 50%;
+	background-color: #1786B4;
+}
+
+#my_image {
+	left: 2px;
+	padding: 0px 25px;
+	float: left;
+	padding-left: 20px
+}
+
+.avatar-box {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	height: auto;
+	width: 600px;
+}
+
+#box {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	height: 170px;
+	width: 600px;
+	margin-bottom: 20px;
+}
+
+.top {
+	height: 18px;
+	width: 100%;
+	background-color: white;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.bottom {
+	position: absolute;
+	width: 100%;
+	background-color: #c0deed;
+	border-radius: 0px 0px 5px 5px;
+	padding-bottom: 10px;
+}
+
+#expandedtext {
+	padding-left: 159px;
+	margin-top: 35px;
+	margin-bottom: 2px;
+}
+
+textarea {
+	width: 90%;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 20px;
+	resize: none;
+	margin: 20px;
+}
+
+nav.navigation {
+	display: block;
+}
+
+#userName {
+	padding-top: 10px;
+	left: 40px;
+	font-weight: bold;
+}
+
+.row {
+	margin: 20px 10px 5px 5px
+}
+
+.p {
+	padding-right: 20px
+}
+
+.img {
+	height: 20px;
+	margin-right: -3px
+}
+
+.bottom-right {
+	position: relative;
+	left: 10px;
+	right: 100px;
+	width: auto;
+	padding-top: 8px;
+}
+
+.bottom-right-avatar {
+	position: relative;
+	width: auto;
+	padding-top: 8px;
+}
+
+#countdown {
+	width: 50px;
+	padding-left: 180px
+}
+
+button {
+	margin-bottom: 10px;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.nameLabel {
+	padding-left: 8px;
+}
+
+#tweetContent {
+	height: 40px;
+	margin-left: 8px;
+	overflow-wrap: break-word;
+}
+
+#currentDate {
+	padding-left: 155px;
+	padding-right: 20px;
+}
+
+#collapseContent {
+	margin-top: 8px;
+}
+
+#tweet #followers #followers {
+	text-align: center;
+	vertical-align: super;
+	padding-left: 12px;
+}
+
+.container-expand .header {
+	cursor: pointer;
+	font-weight: bold;
+	width: auto;
+}
+
+.container-expand .content {
+	display: none;
+	padding: 2px;
+	width: auto;
+}
+
+#wrapper .text {
+	position: relative;
+	padding-left: 7px;
+	left: 0px;
+	visibility: hidden;
+}
+
+#wrapper:hover .text {
+	visibility: visible !important;;
+}
+span#wrapper {
+    float: right;
+    padding-top: 15px;
+    padding-right: 220px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang='en'>
+   <head>
+      <title>Twitter</title>
+      <meta charset="utf-8" />
+      <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script src="myscript.js"></script>
+      <link rel="stylesheet" type="text/css" href="Style.css">
+   </head>
+   <body >
+      <header id="MainForm">
+         <nav class="navigation">
+            <img src="images/logo.png" id="logo" class="logoImg" alt=""/>
+            <ul>
+               <li><a class="active" href="https://twitter.com/harpal_92">Twitter 2.0</a></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Discover</a></li>
+               <li><a href="#">Me</a></li>
+            </ul>
+         </nav>
+      </header>
+      <div id="box">
+         <div class="bottom container">
+            <textarea maxlength="140" placeholder="Enter Tweet..." id="txtArea" class="expand"></textarea>
+            <div class="bottom-right">
+               <span id="tweet">Tweets: 0</span>
+               <span id="followers">Followers: 91</span>
+               <span id="following">Following: 10,230</span>
+               <span id='countdown'> 140</span>
+               <button class="btn btn-primary" id="submit">
+               Submit</button>			
+            </div>
+         </div>
+      </div>
+      <div id="avatar-box" class="avatar-box bottom container">
+         <div class="bottom-right-avatar">
+            <img id="my_image" class="imageClass" src="images/twitter-avatar.png" alt=""/>
+            <span id="userName" class="nameLabel">Darwish Gani</span>
+            <span id="handle" class="nameLabel">@dargandhi123</span>
+            <span id="currentDate" class="nameLabel">20 June</span>
+         </div>
+         <span id="tweetContent"></span>
+         <div id="expandedtext" class="expandedtext">
+		 <span id="wrapper">
+                  <a href="#" class="text">Reply</a>
+                  <a href="#" class="text">Retweet</a>
+                  <a href="#" class="text">Favourites</a>
+                  </span>​ 
+            <div class="container-expand">
+               <div class="header"><span>Expand</span>
+               </div>
+			    
+               <div class="content">
+                  <span id="retweet">23:Retweets:</span>
+                  <span id="followersTag">11:favourites</span>
+                  <img id="img1" src="images/people.png" alt="people"/>
+                  <img id="img2" src="images/people.png" alt="people"/>
+                  <img id="img3" src="images/people.png" alt="people"/>
+                  <img id="img4" src="images/people.png" alt="people"/>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
